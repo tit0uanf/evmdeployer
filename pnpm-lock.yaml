@@ -8,9 +8,6 @@ dependencies:
   '@dynamic-labs/ethereum':
     specifier: ^1.4.4
     version: 1.4.4(@dynamic-labs/logger@1.4.4)(@dynamic-labs/sdk-api@0.0.387)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)(viem@1.21.4)
-  '@dynamic-labs/ethers-v5':
-    specifier: ^1.4.4
-    version: 1.4.4(@dynamic-labs/logger@1.4.4)(@dynamic-labs/rpc-providers@1.4.4)(@dynamic-labs/sdk-api@0.0.387)(@dynamic-labs/types@1.4.4)(@dynamic-labs/utils@1.4.4)(@dynamic-labs/wallet-book@1.4.4)(ethers@6.11.1)(eventemitter3@5.0.1)(viem@1.21.4)
   '@dynamic-labs/ethers-v6':
     specifier: ^1.4.4
     version: 1.4.4(@dynamic-labs/logger@1.4.4)(@dynamic-labs/rpc-providers@1.4.4)(@dynamic-labs/sdk-api@0.0.387)(@dynamic-labs/types@1.4.4)(@dynamic-labs/utils@1.4.4)(@dynamic-labs/wallet-book@1.4.4)(ethers@6.11.1)(eventemitter3@5.0.1)(viem@1.21.4)
@@ -20,9 +17,6 @@ dependencies:
   '@dynamic-labs/wagmi-connector':
     specifier: ^1.4.4
     version: 1.4.4(@dynamic-labs/rpc-providers@1.4.4)(@dynamic-labs/sdk-react-core@1.4.4)(@dynamic-labs/types@1.4.4)(@dynamic-labs/wallet-connector-core@1.4.4)(eventemitter3@5.0.1)(react@18.2.0)(viem@1.21.4)(wagmi@1.4.13)
-  ethers:
-    specifier: ^6.11.1
-    version: 6.11.1
   next:
     specifier: 14.1.4
     version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
@@ -38,9 +32,6 @@ dependencies:
   viem:
     specifier: '1'
     version: 1.21.4(typescript@5.4.3)
-  wagmi:
-    specifier: '1'
-    version: 1.4.13(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(viem@1.21.4)
 
 devDependencies:
   '@types/node':
@@ -156,25 +147,6 @@ packages:
       - supports-color
       - uWebSockets.js
       - utf-8-validate
-    dev: false
-
-  /@dynamic-labs/ethers-v5@1.4.4(@dynamic-labs/logger@1.4.4)(@dynamic-labs/rpc-providers@1.4.4)(@dynamic-labs/sdk-api@0.0.387)(@dynamic-labs/types@1.4.4)(@dynamic-labs/utils@1.4.4)(@dynamic-labs/wallet-book@1.4.4)(ethers@6.11.1)(eventemitter3@5.0.1)(viem@1.21.4):
-    resolution: {integrity: sha512-r7C4/JIJn0T3Oy2KOi0hcGV6OwZHDIPlshtYsoVupn74juaWFPQYZMjVPv5s48hMkGlvzgueeq2Ze7opDyZHcQ==}
-    peerDependencies:
-      ethers: ^5
-      viem: ^1.19.13 || ^2.2.0
-    dependencies:
-      '@dynamic-labs/wallet-connector-core': 1.4.4(@dynamic-labs/logger@1.4.4)(@dynamic-labs/rpc-providers@1.4.4)(@dynamic-labs/sdk-api@0.0.387)(@dynamic-labs/types@1.4.4)(@dynamic-labs/utils@1.4.4)(@dynamic-labs/wallet-book@1.4.4)(eventemitter3@5.0.1)
-      ethers: 6.11.1
-      viem: 1.21.4(typescript@5.4.3)
-    transitivePeerDependencies:
-      - '@dynamic-labs/logger'
-      - '@dynamic-labs/rpc-providers'
-      - '@dynamic-labs/sdk-api'
-      - '@dynamic-labs/types'
-      - '@dynamic-labs/utils'
-      - '@dynamic-labs/wallet-book'
-      - eventemitter3
     dev: false
 
   /@dynamic-labs/ethers-v6@1.4.4(@dynamic-labs/logger@1.4.4)(@dynamic-labs/rpc-providers@1.4.4)(@dynamic-labs/sdk-api@0.0.387)(@dynamic-labs/types@1.4.4)(@dynamic-labs/utils@1.4.4)(@dynamic-labs/wallet-book@1.4.4)(ethers@6.11.1)(eventemitter3@5.0.1)(viem@1.21.4):
