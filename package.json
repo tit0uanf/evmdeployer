@@ -1,0 +1,36 @@
+{
+  "name": "evmdeployer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dynamic-labs/ethereum": "^1.4.4",
+    "@dynamic-labs/ethers-v5": "^1.4.4",
+    "@dynamic-labs/ethers-v6": "^1.4.4",
+    "@dynamic-labs/sdk-react-core": "^1.4.4",
+    "@dynamic-labs/wagmi-connector": "^1.4.4",
+    "ethers": "^6.11.1",
+    "next": "14.1.4",
+    "pino-pretty": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "1",
+    "wagmi": "1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.3"
+  }
+}
